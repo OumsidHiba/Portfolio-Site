@@ -289,3 +289,47 @@ body{
     font-size: 24px;
     vertical-align: middle;
 }
+
+.skillss {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #081b29;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skillss h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fefefe;
+    width: 100%;
+}
+
+.skillss p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color:#ededed;
+    width: 50%; /* Pour avoir deux colonnes */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.skillss p b {
+    font-weight: bold;
+}
+
+.skillss p em {
+    font-style: italic;
+}
+
+.skills i {
+    margin-left: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+    color: #00abf0;
+}
