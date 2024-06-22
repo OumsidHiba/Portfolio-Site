@@ -20,6 +20,15 @@ body{
     align-items: center;
     z-index: 100;
 }
+.image {
+    flex-shrink: 0;
+    max-width: 250px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 50%;
+}
 
 body{
     background: #081b29;
@@ -165,61 +174,79 @@ body{
 .home-sci a:hover::before {
     width: 100%;
 }
+.skillss {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.skillss h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: #1c2e3e;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card i {
+    font-size: 40px;
+    color: #00abf0;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.skill-card:hover {
+    background-color: #283c4d;
+}
 
 .projects {
-    background: #081b29;
-    padding: 40px 20px;
-    margin: 20px 0;
+    padding: 80px 10%;
+    background-color: #081b29;
+    color: #ededed;
 }
 
 .projects h1 {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: #eeebeb;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .project {
     display: flex;
-    align-items: center;
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    margin-bottom: 40px;
 }
 
 .project img {
-    max-width: 150px;
-    margin-right: 20px;
-    border-radius: 8px;
+    width: 250px;
+    margin-right: 30px;
+    border-radius: 5px;
 }
 
 .project-details {
-    max-width: 600px;
+    flex: 1;
 }
 
 .project-details h2 {
-    margin: 0 0 10px;
     font-size: 24px;
-    color: #444;
-}
-
-.project-details a {
-    display: inline-block;
-    margin: 10px 0;
-    color: #0066cc;
-    text-decoration: none;
-}
-
-.project-details a:hover {
-    text-decoration: underline;
-}
-
-.project-details p {
-    margin: 5px 0 0;
-    line-height: 1.6;
-    color: #555;
+    font-weight: 600;
 }
 .about-content {
     max-width: 800px;
