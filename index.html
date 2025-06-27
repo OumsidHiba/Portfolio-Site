@@ -437,58 +437,37 @@
     <!-- ========================
          SECTION PROJETS
          ======================== -->
-    <section id="projets-but3">
+   <section id="projets-but3">
   <div class="section-content">
     <h2><span class="rotating-border"><i class="fas fa-rocket"></i>&nbsp;PROJETS - BUT 3</span></h2>
 
-    <!-- Projet 1 : Visa en ligne -->
-    <div class="projet">
-      <h3><i class="fas fa-passport"></i>&nbsp;Portail de demande de visa en ligne</h3>
-      <div class="projet-content">
-        <div class="media">
-          <img src="images/visa-project.png" alt="Aperçu du portail visa">
-          <video controls>
-            <source src="videos/visa-demo.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-        </div>
-        <div class="texte">
-          <p><strong>Résumé :</strong> Réalisation du cahier des charges, conception maquette, développement backend (paiements, éligibilité).</p>
-          <p><strong>Technos :</strong> PHP, MySQL, MVC, HTML, CSS, JS, Figma, WampServer.</p>
-          <a href="https://github.com/tonprofil/visa-portal" target="_blank" class="btn-projet">
-            <i class="fab fa-github"></i>&nbsp;Voir sur GitHub
-          </a>
+    <div class="cards-projet">
+      <!-- Projet 1 -->
+      <div class="carte-projet" data-anim-delay="0.2s">
+        <h3><i class="fas fa-passport"></i> Portail de demande de visa</h3>
+        <img src="images/visa-project.png" alt="Aperçu Visa" style="width: 100%; border-radius: 8px; margin-bottom: 12px;">
+        <p>Développement complet : maquettes, back-end (éligibilité, paiement) et intégration front-end.</p>
+        <p><strong>Technos :</strong> PHP, MySQL, HTML, CSS, JS</p>
+        <div style="display: flex; gap: 10px;">
+          <a href="videos/visa-demo.mp4" class="btn-projet" target="_blank">Démo</a>
+          <a href="https://github.com/tonprofil/visa-portal" class="btn-projet" target="_blank">GitHub</a>
         </div>
       </div>
-    </div>
 
-    <!-- Projet 2 : Orbiscope -->
-    <div class="projet">
-      <h3><i class="fas fa-globe-americas"></i>&nbsp;Orbiscope – Sélecteur multimodal</h3>
-      <div class="projet-content">
-        <div class="media">
-          <video controls>
-            <source src="videos/orbiscope-demo.mp4" type="video/mp4">
-            Votre navigateur ne supporte pas la vidéo.
-          </video>
-        </div>
-        <div class="texte">
-          <p><strong>Description :</strong> Application mobile & desktop pour rechercher et explorer les pays du monde via texte ou voix.</p>
-          <ul>
-            <li>🔍 Requêtes textuelles ou vocales (capitale, continent, couleur, symboles...)</li>
-            <li>🌍 Affichage des infos détaillées (population, langue, monnaie...)</li>
-            <li>🗂️ Filtres avancés – Interface multilingue</li>
-          </ul>
-          <p><strong>Technos :</strong> React Native, JavaScript, Node.js, Express.js, MongoDB Atlas, Google Maps, OpenStreetMap.</p>
-          <a href="https://github.com/tonprofil/orbiscope-app" target="_blank" class="btn-projet">
-            <i class="fab fa-github"></i>&nbsp;Voir sur GitHub
-          </a>
+      <!-- Projet 2 -->
+      <div class="carte-projet" data-anim-delay="0.4s">
+        <h3><i class="fas fa-globe-americas"></i> Orbiscope</h3>
+        <video src="videos/orbiscope-demo.mp4" controls style="width: 100%; border-radius: 8px; margin-bottom: 12px;"></video>
+        <p>Appli vocale et tactile pour explorer les pays du monde.</p>
+        <p><strong>Technos :</strong> React Native, Node.js, MongoDB</p>
+        <div style="display: flex; gap: 10px;">
+          <a href="videos/orbiscope-demo.mp4" class="btn-projet" target="_blank">Démo</a>
+          <a href="https://github.com/tonprofil/orbiscope-app" class="btn-projet" target="_blank">GitHub</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 
     <!-- ========================
          SECTION FORMATION
