@@ -1,3 +1,39 @@
+#mes-projets {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projet {
+  margin-bottom: 40px;
+}
+
+.projet img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.boutons {
+  margin-top: 15px;
+}
+
+.boutons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.boutons .btn:hover {
+  background-color: #0056b3;
+}
+
 :root {
       /* Couleurs principales */
       --clr-primary: #85144b;      /* Magenta foncé */
